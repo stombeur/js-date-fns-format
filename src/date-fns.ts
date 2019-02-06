@@ -4,7 +4,7 @@ const nu = new Date(Date.now());
 const utc = new Date(Date.UTC(2019, 1, 6, 14, 12, 12, 0));
 const fromString = new Date(Date.parse("2012-03-19T07:22Z"));
 
-document.getElementById("app").innerHTML = `
+document.getElementById("app-date-fns").innerHTML = `
 ${nu}<br/>
 ${nu.toUTCString()}<br/>
 ${nu.toJSON().toString()}<br/><br/>
